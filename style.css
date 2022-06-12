@@ -37,13 +37,29 @@
     font-size: 36px;
     cursor: pointer;
     position: absolute;
-    background-color: #808080;
     text-align: center;
     bottom: 0px;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #008000;
+.fa-facebook:hover {
+    color: #4267B2;
+}
+.fa-instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-youtube:hover {
+    color: #ff0000;
 }
 .fab {
-    color: #000000;
+    color: #808080;
+}
+.fa-uka {
+    width: 36px;
+    filter: grayscale(100%);
+}
+.fa-uka:hover {
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(61, 142, 159));
 }
